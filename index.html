@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge Alura - Criptografia -</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main>
+
+        <img id="logo" src="./imagens/logoAlura.png" alt="logo da alura" />
+        <h3>Challenge alura</h3>
+
+        <textarea name="codificador" id="codificador" placeholder="Texto para criptografar ou descriptografar:" class="text1"></textarea>
+        </section>
+        <p>Apenas letras minúsculas e sem acento.</p>
+        <section>
+            <input onclick="chamarCripto()" id="cript" type="button" value="Criptografar" class="botao" />
+            <input onclick="chamarDescripto()" id="descript" type="button" value="Descriptografar" class="botaoD" />
+        </section>
+
+        <div id="1">
+        </div>
+
+        <div id="2" class="desativado">
+            <textarea name="mensagem-cript" id="mensagem-cript"></textarea>
+            <input onclick="copiarArea()" id="copiar" type="button" value="Copiar" \ />
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
